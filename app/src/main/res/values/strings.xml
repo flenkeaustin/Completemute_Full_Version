@@ -1,0 +1,79 @@
+<resources>
+<!--    Ahoy!-->
+    <string name="app_name">Complete mute</string>
+    <string name="button.finish">FINISH</string>
+    <string name="button.next">NEXT</string>
+    <string name="button.skip">SKIP</string>
+
+<!--    Sensey-->
+    <string name="scroll_to_access_more_detectors">Scroll to access more features</string>
+    <string name="normal_mode">Normal Mode</string>
+    <string name="custom_mode">Custom Mode</string>
+    <string name="custom">Alarm Media Ring System Call</string>
+    <string name="ear_mode">Ear Mode</string>
+    <string name="interval_ms">Interval (MS)</string>
+    <string name="time_interval">Time Interval</string>
+    <string name="handset_switch">Handset Switch</string>
+    <string name="test_sound_source">Test Sound Source</string>
+    <string name="volume_control">Volume Control</string>
+    <string name="ad">Ad</string>
+    <string name="tip">If you like, you can click on my ad</string>
+    <string name="touch_plugins">Plugins</string>
+    <string name="install_plugins">Install Plugins</string>
+    <string name="experience_plugins">Experience Plugins</string>
+    <string name="instructions">Instructions</string>
+    <string name="touch_help">Help</string>
+
+    <string name="alarm_volume">Alarm Volume</string>
+    <string name="media_volume">Media Volume</string>
+    <string name="ringer_volume">Ringer Volume</string>
+    <string name="system_volume">System Volume</string>
+    <string name="call_volume">Call Volume</string>
+
+    <string name="service_agreement">Service Agreement</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <string name="open_source_correlation">Open Source Correlation</string>
+    <string name="announcement">
+    Pay tribute to the medical workers and people from all walks of life
+    who are fighting in the front line of fighting against the epidemic!
+    </string>
+
+    <string name="chop_detector">Chop Detector</string>
+    <string name="wrist_twist_detection">Wrist Twist Detection</string>
+    <string name="hit_area">[There are more people in the world who need your help]</string>
+    <string name="tilt_direction_detection">Tilt Direction Detection</string>
+    <string name="rotation_angle_detection">Rotation Angle Detection</string>
+    <string name="step_detector">Step Detector</string>
+    <string name="pickup_device_detector">Pickup Device Detector</string>
+    <string name="scoop_detector">Scoop Detector</string>
+
+    <string name="fragments">Change</string>
+    <string name="views">Change</string>
+    <string name="scale">Zoom</string>
+
+    <string name="title_1">$???</string>
+    <string name="title_2">$???</string>
+    <string name="title_3">$???</string>
+    <string name="title_4">$???</string>
+
+    <string name="text_1">Preparing...</string>
+    <string name="text_2">Preparing...</string>
+    <string name="text_3">Preparing...</string>
+    <string name="text_4">Preparing...</string>
+
+    <string name="exchange">exchange</string>
+
+    <string name="intro_text">All the points data will be mainly collected at the back desk, and will be checked with the back office at that time. The distribution time will be subject to the settlement time of Google, and the final interpretation right belongs to the developer</string>
+
+    <string name="coins">$???</string>
+    <string name="Preparing">Preparing...</string>
+
+    <string name="watch_video_button_text">Test</string>
+    <string name="default_coin_text">$: 0</string>
+
+    <string name="touch_opensource">Open source related</string>
+
+    <string name="media_panel">Media volume interface</string>
+    <string name="flip_mute">Flip Mute</string>
+</resources>

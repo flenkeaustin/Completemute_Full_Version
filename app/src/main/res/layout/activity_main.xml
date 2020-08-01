@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/primary">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <LinearLayout
+            android:id="@+id/linearlayout_controls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="@string/scroll_to_access_more_detectors"
+                android:textColor="@color/highlight"
+                android:textSize="20sp"/>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:padding="20dp"
+                android:text="@string/normal_mode"
+                android:textColor="@color/icons"
+                android:textOff=""
+                android:textOn="" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_part"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:padding="20dp"
+                android:text="@string/custom_mode"
+                android:textColor="@color/icons"
+                android:textOff=""
+                android:textOn="" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:id="@+id/textView_Custom1"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alarm_volume"
+                    android:textColor="@color/icons"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                </LinearLayout>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/one"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/textView_Custom2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/media_volume"
+                android:textColor="@color/icons"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+            </LinearLayout>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/two"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/textView_Custom3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ringer_volume"
+                android:textColor="@color/icons"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+            </LinearLayout>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/three"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/textView_Custom4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/system_volume"
+                android:textColor="@color/icons"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+            </LinearLayout>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/four"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/textView_Custom5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/call_volume"
+                android:textColor="@color/icons"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+            </LinearLayout>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/five"/>
+        </LinearLayout>
+
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_interest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:padding="20dp"
+                android:text="@string/ear_mode"
+                android:textColor="@color/icons"
+                android:textOff=""
+                android:textOn="" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textView_Tip"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/interval_ms"
+                    android:textColor="@color/icons"
+                    android:layout_marginLeft="20dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/editText_time"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="time"
+                    android:hint="100"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:padding="20dp"
+                android:text="@string/time_interval"
+                android:textColor="@color/icons"
+                android:textOff=""
+                android:textOn="" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_change"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:padding="20dp"
+                android:text="@string/handset_switch"
+                android:textColor="@color/icons"
+                android:textOff=""
+                android:textOn="" />
+
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:padding="20dp"
+                android:text="@string/test_sound_source"
+                android:textColor="@color/icons"
+                android:textOff=""
+                android:textOn="" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_volume"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:padding="20dp"
+                android:text="@string/volume_control"
+                android:textColor="@color/icons"
+                android:textOff=""
+                android:textOn="" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_panel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:padding="20dp"
+                android:text="@string/media_panel"
+                android:textColor="@color/icons"
+                android:textOff=""
+                android:textOn="" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_flip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:button="@null"
+                android:padding="20dp"
+                android:text="@string/flip_mute"
+                android:textColor="@color/icons"
+                android:textOff=""
+                android:textOn="" />
+
+            <Button
+                android:id="@+id/btn_touchevent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:background="@color/accent"
+                android:text="@string/touch_plugins"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/textView_result"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/btn_touchevent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/scrollview"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:background="@drawable/result_bg_cornerflat"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/hit_area"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

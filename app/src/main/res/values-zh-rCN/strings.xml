@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">完全静音</string>
+	<string name="button.finish">完成</string>
+	<string name="button.next">下一个</string>
+	<string name="button.skip">跳过</string>
+	<string name="scroll_to_access_more_detectors">滚动以访问更多功能</string>
+	<string name="normal_mode">正常模式</string>
+	<string name="custom_mode">自选模式</string>
+	<string name="custom">闹钟 媒体 铃声 系统 通话</string>
+	<string name="ear_mode">贴耳息屏</string>
+	<string name="interval_ms">时间间隔（毫秒）</string>
+	<string name="time_interval">时间间隔</string>
+	<string name="handset_switch">听筒切换</string>
+	<string name="test_sound_source">测试声源</string>
+	<string name="volume_control">音量控制</string>
+	<string name="ad">广告</string>
+	<string name="tip">代码千行博君笑，伯牙点击遇子期</string>
+	<string name="touch_plugins">插件</string>
+	<string name="install_plugins">安装插件</string>
+	<string name="experience_plugins">体验插件</string>
+	<string name="instructions">使用说明</string>
+	<string name="touch_help">帮助</string>
+	<string name="alarm_volume">闹钟音量</string>
+	<string name="media_volume">媒体音量</string>
+	<string name="ringer_volume">铃声音量</string>
+	<string name="system_volume">系统音量</string>
+	<string name="call_volume">通话音量</string>
+	<string name="service_agreement">服务协议</string>
+	<string name="privacy_policy">隐私策略</string>
+	<string name="open_source_correlation">开源相关</string>
+	<string name="announcement">向战斗在抗击疫情一线的医务工作者和社会各界人士致敬！</string>
+
+	<string name="chop_detector"></string>
+	<string name="wrist_twist_detection"></string>
+	<string name="hit_area">[这个世界有更多的人需要你的帮助]</string>
+	<string name="tilt_direction_detection"></string>
+	<string name="rotation_angle_detection"></string>
+	<string name="step_detector"></string>
+	<string name="pickup_device_detector"></string>
+	<string name="scoop_detector"></string>
+
+	<string name="fragments">切换</string>
+	<string name="views">切换</string>
+	<string name="scale">缩放</string>
+
+	<string name="title_1">$???</string>
+	<string name="title_2">$???</string>
+	<string name="title_3">$???</string>
+	<string name="title_4">$???</string>
+
+	<string name="text_1">准备中...</string>
+	<string name="text_2">准备中...</string>
+	<string name="text_3">准备中...</string>
+	<string name="text_4">准备中...</string>
+
+	<string name="exchange">兑换</string>
+
+	<string name="intro_text">一切积分数据以后台为主，届时会与后台核对，发放时间根据谷歌结算时间为准，最终解释权归开发者所有</string>
+
+	<string name="coins">$???</string>
+	<string name="Preparing">准备中...</string>
+
+	<string name="watch_video_button_text">测试</string>
+	<string name="default_coin_text">$: 0</string>
+
+	<string name="touch_opensource">开源相关</string>
+
+	<string name="media_panel">媒体面板</string>
+	<string name="flip_mute">翻转静音</string>
+</resources>

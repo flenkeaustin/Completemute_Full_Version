@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    Ahoy!-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="solid_one">#4abc96</color>
+    <color name="solid_two">#357180</color>
+    <color name="solid_three">#ffce00</color>
+
+<!--    Sensey-->
+    <color name="primary">#35518C</color>
+    <color name="primary_dark">#2B4374</color>
+    <color name="primary_light">#D1C4E9</color>
+    <color name="accent">#FF9800</color>
+    <color name="primary_text">#292929</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="highlight">#5D9CEC</color>
+</resources>
