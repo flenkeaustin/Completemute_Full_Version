@@ -1,2 +1,2 @@
-# Completemute_Full_Version
+# Completemute_full
 Full version of https://github.com/flenkeaustin/Completemute
